@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>1959025-NguyenHoangMinhNhat</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the CS201 Web Dev 1 final. Your task is to make a responsive e-commerce site using
+  BS4 as your CSS front end framework and load products from the FakeStore API (linked below) -->
+  <!-- FakeStoreAPI end point: https://fakestoreapi.com/products -->
+
+<section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+      <div class="contact-info float-left">
+        <i class="fa fa-envelope-o"></i> <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">Currency :</span><span class="value">USD </span><b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                  <li><a href="#">USD</a></li>
+                                  <li><a href="#">INR</a></li>
+                                  <li><a href="#">GBP</a></li>
+                              </ul>
+        <i class="img/search.png"></i> <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">language :</span><span class="value">English </span><b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                  <li><a href="#">English</a></li>
+                                  <li><a href="#">French</a></li>
+                                  <li><a href="#">German</a></li>
+                              </ul>
+      </div>
+      <div class="social-links float-right">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+  <header id="header">
+
+
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#body" class="scrollto">Watc<span>hes</span></a></h1>
+
+         <a href="#body"><img src="img/dongho.jpg" alt="" title="" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-has-children"><a href="">Women's</a>
+            <ul>
+              <li><a href="#">Women 1</a></li>
+              <li><a href="#">Women 2</a></li>
+              <li><a href="#">Women 3</a></li>
+              <li><a href="#">Women 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#about">Men's</a></li>
+          <li class="menu-has-children"><a href="">Unisex</a>
+            <ul>
+              <li><a href="#">Unisex 1</a></li>
+              <li><a href="#">Unisex 2</a></li>
+              <li><a href="#">Unisex 3</a></li>
+              <li><a href="#">Unisex 4s</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Collection</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header>
+  <!-- carousel -->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img  class="d-block w-100"src="./images/1.jpg"  alt="First slide"/>
+          </div>
+          <div class="carousel-item">
+            <imgclass="d-block w-100"src="./images/Logines.jpg" alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <imgclass="d-block w-100"src="./images/Rolex.jpg"alt="Third slide"/>
+          </div>
+        </div>
+        <a  class="carousel-control-prev"href="#carouselExampleControls"role="button"data-slide="prev"  >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next"  href="#carouselExampleControls"role="button"  data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- saleoff -->
+      <div class="container mt-5 mb-5">
+        <div class="saleoff">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  class="card-img-top"
+                  src="./images/Hublot.png"
+                  alt="Card image cap"
+                />
+
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  class="card-img-top"
+                  src="./images/Logines.jpg"
+                  alt="Card image cap"
+                />
+
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 22rem">
+                <img
+                  class="card-img-top"
+                  src="./images/Rolex.jpg"
+                  alt="Card image cap"
+                />
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="container container-main">
+    <div class="top-rating mt-1">
+      <div class="text-center">
+        <h3 class="mb-0">On Sales</h3>
+      </div>
+      <div id="controls">
+        <i class="fa slider-arrow leftcenter previous fa-2x fa-arrow-circle-left" aria-hidden="true"></i>
+        <i class="fa next slider-arrow rightcenter fa-arrow-circle-right fa-2x" aria-hidden="true"></i>
+        <button class="auto"></button>
+        <div class="my-3 mx-4 py-2 px-3">
+          <div class="my-slider d-flex  ">
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="mt-3 text-center">Best seller</h1>
+    <div class="row product-banner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="staticcatalog.js" charset="utf-8"></script>
+</body>
+</html>
